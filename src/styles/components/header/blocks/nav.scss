@@ -35,12 +35,12 @@
     &.is-active::after {
       position: absolute;
       content: '';
+      width: $header-nav-link-is-active-width;
       height: $header-nav-link-is-active-height;
       background-color: $header-nav-link-is-active-bg-color;
       border-radius: $header-nav-link-is-active-brdr-radius;
-      width: 100%;
-      bottom: 0;
-      left: 0;
+      bottom: $header-nav-link-is-active-left;
+      bottom: $header-nav-link-is-active-bottom;
     }
   }
 }

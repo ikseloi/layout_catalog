@@ -44,13 +44,13 @@
   &__rating {
     margin-bottom: $card-rating-margin-bottom;
 
-    @include u-row;
+    @include rating-row;
   }
 
   &__price {
     margin-bottom: $card-price-margin-bottom;
 
-    @include u-row;
+    @include rating-row;
   }
 
   &:hover {

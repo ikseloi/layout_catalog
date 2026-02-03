@@ -21,7 +21,10 @@ $header-nav-item-margin-left: 20px;
 
 $header-nav-link-height: 60px;
 $header-nav-link-color-hover: #00acdc;
+$header-nav-link-is-active-width: 100%;
 $header-nav-link-is-active-height: 4px;
+$header-nav-link-is-active-left: 0;
+$header-nav-link-is-active-bottom: 0;
 $header-nav-link-is-active-color: #00acdc;
 $header-nav-link-is-active-bg-color: #00acdc;
 $header-nav-link-is-active-brdr-radius: 8px;
@@ -101,6 +104,10 @@ $card-button-brdr-width: 1px;
 $card-button-brdr-color-hover: #00acdc;
 $card-button-color-hover: #00acdc;
 $card-button-bg-color-hover: #fff;
+
+// --
+
+$mixin-rating-row-width: 100%;
 
 // --
 
