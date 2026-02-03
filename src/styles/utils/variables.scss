@@ -4,25 +4,27 @@ $page-secondary-color: #616070;
 
 // --
 
-$header-font-weight: 500;
 $header-padding-inline: 50px;
+$header-font-weight: 500;
 $header-logo-img-width: 40px;
 $header-logo-img-height: 40px;
 
 // --
 
-$header-nav-list-padding-inline-start: 0;
 $header-nav-list-margin-block: 0;
+$header-nav-list-padding-inline-start: 0;
+
+// --
+$header-nav-item-margin-left: 20px;
 
 // --
 
-$header-nav-link-is-active-height: 4px;
-$header-nav-link-is-active-border-radius: 8px;
-$header-nav-item-margin-left: 20px;
 $header-nav-link-height: 60px;
 $header-nav-link-color-hover: #00acdc;
+$header-nav-link-is-active-height: 4px;
 $header-nav-link-is-active-color: #00acdc;
 $header-nav-link-is-active-bg-color: #00acdc;
+$header-nav-link-is-active-brdr-radius: 8px;
 
 // --
 
@@ -84,18 +86,21 @@ $card-button-width: 166px;
 $card-button-height: 40px;
 $card-button-padding-block: 12px;
 $card-button-padding-inline: 70px;
-$card-button-font-size: 14px;
-$card-button-font-weight: 700;
-$card-button-border-radius: 5px;
-$card-button-border-width: 1px;
+$card-button-brdr-radius: 5px;
+$card-button-bg-color: #00acdc;
 
 // --
 
+$card-button-font-size: 14px;
+$card-button-font-weight: 700;
 $card-button-color: #fff;
-$card-button-color-hover: #00acdc;
-$card-button-bg-color: #00acdc;
-$card-button-bg-color-hover: #fff;
+
+// --
+
+$card-button-brdr-width: 1px;
 $card-button-brdr-color-hover: #00acdc;
+$card-button-color-hover: #00acdc;
+$card-button-bg-color-hover: #fff;
 
 // --
 
