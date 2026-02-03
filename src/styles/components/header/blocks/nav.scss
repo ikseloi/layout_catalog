@@ -4,8 +4,8 @@
   &__list {
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding-inline-start: $header-nav-list-padding-inline-start;
+    margin-block: $header-nav-list-margin-block;
   }
 
   &__item:not(:first-child) {
@@ -35,7 +35,7 @@
     &.is-active::after {
       position: absolute;
       content: '';
-      height: $header-nav-link-is-active-border-height;
+      height: $header-nav-link-is-active-height;
       background-color: $header-nav-link-is-active-bg-color;
       border-radius: $header-nav-link-is-active-border-radius;
       width: 100%;

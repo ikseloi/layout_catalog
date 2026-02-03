@@ -1,22 +1,23 @@
 .button {
-  width: 166px;
-  height: 40px;
-  padding: 12px 70px;
+  width: $card-button-width;
+  height: $card-button-height;
+  padding-block: $card-button-padding-block;
+  padding-inline: $card-button-padding-inline;
   box-sizing: border-box;
 
-  font-size: 14px;
-  font-weight: 700;
-  color: $btn-text-color;
+  font-size: $card-button-font-size;
+  font-weight: $card-button-font-weight;
+  color: $card-button-color;
   text-decoration: none;
 
-  background-color: $btn-bg-color;
-  border-radius: 5px;
+  background-color: $card-button-bg-color;
+  border-radius: $card-button-border-radius;
 
   transition-duration: $transition-duration;
 
   &:hover {
-    border: 1px solid $btn-brdr-color-hover;
-    color: $btn-text-color-hover;
-    background-color: $btn-bg-color-hover;
+    border: $card-button-border-width solid $card-button-brdr-color-hover;
+    color: $card-button-color-hover;
+    background-color: $card-button-bg-color-hover;
   }
 }

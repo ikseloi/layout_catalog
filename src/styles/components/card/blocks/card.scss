@@ -3,56 +3,58 @@
   flex-direction: column;
   align-items: center;
   width: $card-width;
-  padding: 32px 16px 16px;
+  padding-block: $card-padding-block-start $card-padding-block-end;
+  padding-inline: $card-padding-inline;
+
   box-sizing: border-box;
 
-  border: 1px solid $card-brdr-color;
-  border-radius: 5px;
+  border: $card-brdr-width solid $card-brdr-color;
+  border-radius: $card-brdr-radius;
 
   background-color: $card-bg-color;
 
   transition-duration: $transition-duration;
 
   &__image {
-    width: 160px;
-    height: 134px;
-    margin-bottom: 40px;
+    width: $card-image-width;
+    height: $card-image-height;
+    margin-bottom: $card-image-margin-bottom;
   }
 
   &__title {
-    margin-top: 0;
-    margin-bottom: 4px;
+    margin-top: $card-title-margin-top;
+    margin-bottom: $card-title-margin-bottom;
 
     font-size: $page-font-size;
-    font-weight: 500;
-    line-height: 18px;
+    font-weight: $card-title-font-weight;
+    line-height: $card-title-line-height;
     color: $page-main-color;
   }
 
   &__code {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    color: $page-secondary-color;
+    width: $card-code-width;
+    margin-bottom: $card-code-margin-bottom;
 
-    margin-bottom: 16px;
-    width: 100%;
+    font-size: $card-code-font-size;
+    font-weight: $card-code-font-weight;
+    line-height: $card-code-line-height;
+    color: $page-secondary-color;
   }
 
   &__rating {
-    margin-bottom: 24px;
+    margin-bottom: $card-rating-margin-bottom;
 
     @include u-row;
   }
 
   &__price {
-    margin-bottom: 16px;
+    margin-bottom: $card-price-margin-bottom;
 
     @include u-row;
   }
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale($card-transform-scale);
 
     .card__title {
       color: $card-title-color-hover;
