@@ -23,17 +23,17 @@
     margin-top: 0;
     margin-bottom: 4px;
 
-    font-size: $font-size;
+    font-size: $page-font-size;
     font-weight: 500;
     line-height: 18px;
-    color: $main-color;
+    color: $page-main-color;
   }
 
   &__code {
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
-    color: $secondary-color;
+    color: $page-secondary-color;
 
     margin-bottom: 16px;
     width: 100%;

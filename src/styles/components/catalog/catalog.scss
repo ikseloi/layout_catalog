@@ -7,10 +7,9 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(var(--columns), $card-width);
-  gap: 46px 48px;
+  gap: $catalog-row-gap $catalog-column-gap;
 
-  padding-inline: 40px;
-  padding-block: 50px;
-  margin: 0 auto;
+  padding-inline: $catalog-padding-inline;
+  padding-block: $catalog-padding-block;
   box-sizing: border-box;
 }

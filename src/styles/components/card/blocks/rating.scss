@@ -1,8 +1,8 @@
 .rating {
   &__reviews {
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    color: $main-color;
+    font-size: $card-rating-reviews-font-size;
+    font-weight: $card-rating-reviews-font-weight;
+    line-height: $card-rating-reviews-line-height;
+    color: $page-main-color;
   }
 }

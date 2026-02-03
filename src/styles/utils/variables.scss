@@ -1,17 +1,48 @@
-$main-color: #060b35;
-$secondary-color: #616070;
-$font-size: 12px;
+$page-font-size: 12px;
+$page-main-color: #060b35;
+$page-secondary-color: #616070;
 
 // --
 
-$link-color-active: #00acdc;
+$header-font-weight: 500;
+$header-padding-inline: 50px;
+$header-logo-img-width: 40px;
+$header-logo-img-height: 40px;
+$header-nav-link-is-active-border-height: 4px;
+$header-nav-link-is-active-border-radius: 8px;
+$header-nav-item-margin-left: 20px;
+$header-nav-link-height: 60px;
+$header-nav-link-color-hover: #00acdc;
+$header-nav-link-is-active-color: #00acdc;
+$header-nav-link-is-active-bg-color: #00acdc;
+
+// --
+
+$catalog-row-gap: 46px;
+$catalog-column-gap: 48px;
+$catalog-padding-inline: 40px;
+$catalog-padding-block: 50px;
 
 // --
 
 $card-width: 200px;
-$card-brdr-color: #f3f3f3;
 $card-bg-color: #fff;
+$card-brdr-color: #f3f3f3;
 $card-title-color-hover: #34568b;
+$card-rating-reviews-font-size: 10px;
+$card-rating-reviews-font-weight: 400;
+$card-rating-reviews-line-height: 14px;
+$card-price-label-font-size: 12px;
+$card-price-label-font-weight: 400;
+$card-price-label-line-height: 18px;
+
+// --
+
+$stars-width: 96px;
+$stars-height: 16px;
+$star-width: 16px;
+$star-height: 16px;
+$stars-margin-left: 4px;
 
 // --
 
@@ -20,11 +51,6 @@ $btn-text-color-hover: #00acdc;
 $btn-bg-color: #00acdc;
 $btn-bg-color-hover: #fff;
 $btn-brdr-color-hover: #00acdc;
-
-// --
-
-$stars-width: 96px;
-$stars-height: 16px;
 
 // --
 

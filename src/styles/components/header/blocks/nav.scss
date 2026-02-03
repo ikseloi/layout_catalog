@@ -1,5 +1,5 @@
 .nav {
-  font-size: $font-size;
+  font-size: $page-font-size;
 
   &__list {
     display: flex;
@@ -9,7 +9,7 @@
   }
 
   &__item:not(:first-child) {
-    margin-left: 20px;
+    margin-left: $header-nav-item-margin-left;
   }
 
   &__link {
@@ -17,27 +17,27 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 60px;
+    height: $header-nav-link-height;
 
     text-transform: uppercase;
     text-decoration: none;
-    color: $main-color;
+    color: $page-main-color;
     transition-duration: $transition-duration;
 
     &:hover {
-      color: $link-color-active;
+      color: $header-nav-link-color-hover;
     }
 
     &.is-active {
-      color: $link-color-active;
+      color: $header-nav-link-is-active-color;
     }
 
     &.is-active::after {
       position: absolute;
       content: '';
-      height: 4px;
-      background-color: $link-color-active;
-      border-radius: 8px;
+      height: $header-nav-link-is-active-border-height;
+      background-color: $header-nav-link-is-active-bg-color;
+      border-radius: $header-nav-link-is-active-border-radius;
       width: 100%;
       bottom: 0;
       left: 0;
