@@ -1,5 +1,5 @@
 .nav {
-  font-size: 12px;
+  font-size: $font-size;
 
   &__list {
     display: flex;
@@ -23,24 +23,24 @@
     text-decoration: none;
     color: $main-color;
     transition-duration: $transition-duration;
-  }
 
-  &__link:hover {
-    color: $link-color-active;
-  }
+    &:hover {
+      color: $link-color-active;
+    }
 
-  &__link.is-active {
-    color: $link-color-active;
-  }
+    &.is-active {
+      color: $link-color-active;
+    }
 
-  &__link.is-active::after {
-    position: absolute;
-    content: '';
-    height: 4px;
-    background-color: $link-color-active;
-    border-radius: 8px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
+    &.is-active::after {
+      position: absolute;
+      content: '';
+      height: 4px;
+      background-color: $link-color-active;
+      border-radius: 8px;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
   }
 }

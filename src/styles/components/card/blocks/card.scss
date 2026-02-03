@@ -23,7 +23,7 @@
     margin-top: 0;
     margin-bottom: 4px;
 
-    font-size: 12px;
+    font-size: $font-size;
     font-weight: 500;
     line-height: 18px;
     color: $main-color;
@@ -55,7 +55,7 @@
     transform: scale(1.2);
 
     .card__title {
-      color: $btn-text-title-color-hover;
+      color: $card-title-color-hover;
     }
   }
 }

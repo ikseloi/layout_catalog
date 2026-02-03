@@ -1,6 +1,6 @@
 @import 'blocks/nav';
+@import 'blocks/logo';
 
-/* #region Header with Logo */
 .header {
   padding: 0 50px;
   display: flex;
@@ -8,11 +8,3 @@
   justify-content: space-between;
   font-weight: 500;
 }
-
-.logo__img {
-  display: block;
-  width: 40px;
-  height: 40px;
-}
-
-/* #endregion */
